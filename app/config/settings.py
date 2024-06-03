@@ -25,3 +25,8 @@ class Settings(BaseSettings):
     MYSQL_PORT: int = int(os.environ.get("MYSQL_PORT", 3306))
     MYSQL_DB: str = os.environ.get("MYSQL_DB", 'fastapi')
     DATABASE_URI: str = f"mysql+pymysql://{MYSQL_USER}:%s@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DB}" % quote_plus(MYSQL_PASS)
+
+
+@lru_cache()
+def get_settings() -> Settings:
+    return Settings()
