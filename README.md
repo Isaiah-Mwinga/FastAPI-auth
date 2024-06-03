@@ -1,8 +1,5 @@
 # FastAPI Authentication APIs - Test Driven Development (TDD)
 
-### Video Tutorial
-[Click here](#)
-
 ### APIs 
 ![ALT TEXT](https://github.com/Isaiah-Mwinga/FastAPI-auth/blob/main/screenshot.png)
 
