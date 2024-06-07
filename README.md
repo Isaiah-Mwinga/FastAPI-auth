@@ -5,8 +5,8 @@
 
 ### Installation & Configuration
 - Install the Docker Desktop and Start It
-- Clone this repository in your local machine by typing `git@github.com:Describly/fastapi-tdd-user-authentication.git`. 
-- Open the Terminal and navigate to the project folder.
+- Clone this repository in your local machine by typing ``. 
+- Open the Terminal and navigate to `https://github.com/Isaiah-Mwinga/FastAPI-auth` the project folder.
 - Run `docker volume create describly_mysql_data` to create a docker volue in you machine. Required to persist the mysql data.
 - Below will be your mysql connection details
 ```bash
